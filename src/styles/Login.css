@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Light background color */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.login-content {
+    max-width: 400px;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.login-content h1 {
+    margin: 0 0 30px;
+    font-size: 36px;
+    color: #3e374d; /* Purple heading color */
+}
+
+.login-content input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #3e374d;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.login-content input:focus {
+    border-color: #ff6f61; /* Coral border color on focus */
+}
+
+.login-content label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3e374d;
+    margin-bottom: 10px;
+}
+
+.login-content button {
+    width: 100%;
+    padding: 14px;
+    background-color: #3e374d;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-content button:hover {
+    background-color: #ff6f61; /* Darker coral color on hover */
+}
