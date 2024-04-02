@@ -5,8 +5,8 @@ import { TypeAnimation } from 'react-type-animation'
 const Header = () => {
   return (
     <div className=' w-full flex items-center justify-center mt-6 '>
-      <div className='header w-full flex items-center justify-center bg-gray-900 rounded-2xl mx-6 '>
-        <h1 className='font-bold text-white '>
+      <div className='header w-full flex items-center justify-center bg-gray-900 rounded-2xl mx-6 px-3'>
+        <h1 className='font-bold text-white'>
         <TypeAnimation
           sequence={[
             '"The secret of getting ahead is getting started so Read!"',

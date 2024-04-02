@@ -70,10 +70,10 @@ export default function Example() {
                   <span className="sr-only">write</span>
                   <PencilSquareIcon className="h-7 w-7" aria-hidden="true" />
                 </button>
-                <button type="button" onClick={ () => navigateTo('/login') } className='sm-hidden relative bg-gray-800 px-3 py-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 rounded-sm ml-6'>
+                <button type="button" onClick={ () => navigateTo('/login') } className= 'hidden md:block relative bg-gray-800 px-3 py-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 rounded-sm ml-6'>
                   Login
                 </button>
-                <button type="button" onClick={ () => navigateTo('/signup') } className=' sm-hidden relative bg-gray-800 px-3 py-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 rounded-sm ml-6'>
+                <button type="button" onClick={ () => navigateTo('/signup') } className='hidden md:block relative bg-gray-800 px-3 py-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 rounded-sm ml-6 '>
                   Sign up
                 </button>
 
@@ -123,10 +123,10 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            onClick={ () => navigateTo('/login') }
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
-                            Sign out
+                            Log in
                           </a>
                         )}
                       </Menu.Item>
